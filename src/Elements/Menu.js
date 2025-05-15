@@ -135,7 +135,7 @@ export default function Example() {
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+                src={Logo}
                 className="h-8 w-auto"
               />
             </a>
@@ -153,7 +153,7 @@ export default function Example() {
               <div className="space-y-2 py-6">
                 <Disclosure as="div" className="-mx-3">
                   <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pr-3.5 pl-3 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
-                    Product
+                    Servicii
                     <ChevronDownIcon aria-hidden="true" className="size-5 flex-none group-data-open:rotate-180" />
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2">
@@ -170,22 +170,22 @@ export default function Example() {
                   </DisclosurePanel>
                 </Disclosure>
                 <a
-                  href="#"
+                  href="/portofoliu"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Features
+                  Portofoliu
                 </a>
                 <a
-                  href="#"
+                  href="/despre"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Marketplace
+                  Despre Noi
                 </a>
                 <a
-                  href="#"
+                  href="/contact"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Company
+                  Contact
                 </a>
               </div>
               <div className="py-6">
