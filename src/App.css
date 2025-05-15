@@ -1,10 +1,15 @@
 .App {
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid var(--white);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  align-self: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {

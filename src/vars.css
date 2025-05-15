@@ -1,0 +1,17 @@
+:root {
+    /*Colors*/
+    --bg1:#202020;
+    --bg2:#252525;  
+    --bg3:#49575f;
+    --accent1:#6b8096;
+    --accent2:lightskyblue;
+    --accent3:#bfe2f7;
+    --white:#fff;
+    --glow:hsla(0, 0%, 100%, 0.75);
+    --transparent1:rgba(32, 32, 32, 0.75);
+    /*Sizes
+    --s1:1250px;
+    --s2:952px;
+    --s3:858px;
+    */
+  }
