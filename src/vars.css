@@ -14,4 +14,6 @@
     --s2:952px;
     --s3:858px;
     */
+    --inaltimemenu:80px;
+    --fontmenu:calc(var(--inaltimemenu)/2.5);
   }

@@ -7,7 +7,7 @@ function App() {
     <>
         <Menu/>
         <div className="container">
-            <h1>Acasă</h1>
+            <h1 className="text-3xl font-bold underline">Acasă</h1>
             <p>Welcome to the home page!</p>
         </div>
     </>

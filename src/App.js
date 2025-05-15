@@ -8,6 +8,7 @@ import Contact from './pages/Contact/contact.js';
 function App() {
   return (
     <>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       <BrowserRouter>
           <Routes>
               <Route path="/" element={<Acasa/>}/>
