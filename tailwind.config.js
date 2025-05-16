@@ -21,6 +21,8 @@ module.exports = {
         'accent-700':'#00c900',
         'accent-800':'#00c900',
         'accent-900':'#00c900',
+        'transparent':'#00000000',
+        'transparent-100':'#00000020',
       }
     },
   },
