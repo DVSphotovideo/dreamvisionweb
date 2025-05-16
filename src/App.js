@@ -1,9 +1,9 @@
 import React from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Acasa from './pages/Acasa/Acasa.js';
-import Portofoliu from './pages/Portofoliu/Portofoliu.js';
-import Despre from './pages/Despre/Despre.js';
-import Contact from './pages/Contact/contact.js';
+import Acasa from './pages/Acasa.js';
+import Portofoliu from './pages/Portofoliu.js';
+import Despre from './pages/Despre.js';
+import Contact from './pages/Contact.js';
 
 function App() {
   return (
